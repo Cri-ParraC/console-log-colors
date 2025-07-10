@@ -4,11 +4,20 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Test",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/index.js"
-    }
+      "program": "${workspaceFolder}/test.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Demo",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/demo.js"
+    },
   ]
 }
