@@ -18,7 +18,7 @@
   "author": "Cristian Parra <cri.parrac@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/console-log-colors"
+    "url": "https://github.com/Cri-ParraC/console-log-colors"
   },
   "license": "ISC",
   "description": "Colorea los mensajes de consola mediante códigos ANSI"
