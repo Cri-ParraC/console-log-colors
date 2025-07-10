@@ -2,11 +2,24 @@
   "name": "console-log-colors",
   "version": "1.0.0",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "console",
+    "colors",
+    "terminal",
+    "ansi"
+  ],
+  "author": "Cristian Parra <cri.parrac@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/console-log-colors"
+  },
   "license": "ISC",
-  "description": ""
+  "description": "Colorea los mensajes de consola mediante códigos ANSI"
 }
