@@ -4,20 +4,32 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Test",
+      "name": "Test (fnm)",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/test.js"
+      "program": "${workspaceFolder}/test.js",
+      "runtimeExecutable": "fnm",
+      "runtimeArgs": [
+        "exec",
+        "--",
+        "node"
+      ]
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Demo",
+      "name": "Demo (fnm)",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/demo.js"
+      "program": "${workspaceFolder}/demo.js",
+      "runtimeExecutable": "fnm",
+      "runtimeArgs": [
+        "exec",
+        "--",
+        "node"
+      ]
     },
   ]
 }
